@@ -4,5 +4,5 @@ api-version: 1.16
 authors:
   - Maximilian1021
   - l4zs
-main: me.maximilian1021.BlockpartyReborn.Main
+main: me.maximilian1021.blockpartyreborn.BlockPartyReborn
 version: 1.0.0
