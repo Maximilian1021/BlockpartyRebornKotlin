@@ -6,3 +6,9 @@ authors:
   - l4zs
 main: me.maximilian1021.blockpartyreborn.BlockPartyReborn
 version: 1.0.0
+
+commands:
+  blockparty:
+    aliases:
+      - bp
+      - blockparty
