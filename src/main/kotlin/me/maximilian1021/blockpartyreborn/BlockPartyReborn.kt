@@ -1,8 +1,7 @@
-package me.maximilian1021.l4zs.blockpartyreborn
+package me.maximilian1021.blockpartyreborn
 
 
-import me.maximilian1021.l4zs.utils.Metrics
-import net.axay.kspigot.chat.KColors
+import me.maximilian1021.blockpartyreborn.bstats.Metrics
 import net.axay.kspigot.main.KSpigot
 import org.bukkit.Bukkit
 

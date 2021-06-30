@@ -1,4 +1,4 @@
-package me.maximilian1021.l4zs.utils;
+package me.maximilian1021.blockpartyreborn.bstats;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
