@@ -3,27 +3,22 @@ package me.maximilian1021.blockpartyreborn
 
 import me.maximilian1021.blockpartyreborn.bstats.Metrics
 import net.axay.kspigot.main.KSpigot
-import org.bukkit.Bukkit
 
-
-class Main : KSpigot() {
-
+class BlockPartyReborn : KSpigot() {
 
     override fun startup() {
-        logger.info("${KColors.GREEN}The Plugin was successfully enabled!")
-        Bukkit.getConsoleSender().sendMessage("");
-        val pluginId = 11868 // <-- Replace with the id of your plugin!
-
-        val metrics = Metrics(this, pluginId)
-
-
-
+        logger.info("§aThe Plugin was successfully enabled!")
+        bStats()
     }
 
     override fun shutdown() {
-        logger.info("${KColors.RED}The Plugin was disabled!")
+        logger.info("§cThe Plugin was disabled!")
     }
 
+    private fun bStats() {
+        val pluginId = 11868 // <-- Replace with the id of your plugin!
+        val metrics = Metrics(this, pluginId)
+    }
 
     /*
 #TODO
