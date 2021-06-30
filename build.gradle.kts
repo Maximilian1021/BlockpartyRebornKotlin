@@ -6,7 +6,7 @@ plugins {
     id("com.github.gmazzo.buildconfig") version "3.0.0"
 }
 
-group = "org.example"
+group = "me.maximilian1021.l4zs"
 version = "1.0.0"
 
 repositories {
