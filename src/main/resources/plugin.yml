@@ -1,6 +1,8 @@
-name: ExamplePlugin
+name: BlockpartyReborn
+description: Blockparty
 api-version: 1.16
 authors:
-  - You
-main: com.example.exampleplugin.ExamplePlugin
+  - Maximilian1021
+  - l4z2
+main: me.maximilian1021.l4zs.BlockpartyReborn.Main
 version: @version@
