@@ -19,7 +19,7 @@ Block Party is a mini-game in Minecraft. The goal is to stand on the block that 
 
 ## TODO:
 - [x] aufsetzen
-- [ ] Tool zum festlegen von der Arena ( Stick )
+- [x] Tool zum festlegen von der Arena ( Stick )
 - [ ] Arena Floor Setup
 - [ ] Lobby / Game setSpawn Command
 - [ ] Block change Event ( Floor )

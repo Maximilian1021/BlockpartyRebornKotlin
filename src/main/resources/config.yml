@@ -5,3 +5,29 @@
 #
 ###########################################
 
+
+#####################
+#					#
+#		MySQL		#
+#	Konfiguration	#
+#					#
+#####################
+
+use: false
+host: localhost
+port: 3306
+database: Minecraft_Blockparty
+username: Minecraft
+password: 12345
+
+
+#####################
+#					#
+#	  Bungeecord    #
+#	            	#
+#####################
+bungeecord: false
+restartAfterGame: true
+sendToHubBeforRestart: false
+
+
