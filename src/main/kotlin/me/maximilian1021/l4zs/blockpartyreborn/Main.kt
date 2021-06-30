@@ -1,11 +1,24 @@
 package me.maximilian1021.l4zs.blockpartyreborn
 
+
+import me.maximilian1021.l4zs.utils.Metrics
 import net.axay.kspigot.chat.KColors
 import net.axay.kspigot.main.KSpigot
+import org.bukkit.Bukkit
+
+
 class Main : KSpigot() {
+
 
     override fun startup() {
         logger.info("${KColors.GREEN}The Plugin was successfully enabled!")
+        Bukkit.getConsoleSender().sendMessage("");
+        val pluginId = 11868 // <-- Replace with the id of your plugin!
+
+        val metrics = Metrics(this, pluginId)
+
+
+
     }
 
     override fun shutdown() {

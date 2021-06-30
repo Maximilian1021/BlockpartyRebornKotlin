@@ -14,6 +14,7 @@ repositories {
     mavenCentral()
     maven(url = "https://papermc.io/repo/repository/maven-public/")
     maven("https://repo.codemc.io/repository/maven-snapshots/")
+
 }
 
 val minecraft_version: String by project
